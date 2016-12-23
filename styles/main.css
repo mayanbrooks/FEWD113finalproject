@@ -1,0 +1,226 @@
+
+
+.hamburger-menu{
+  color: white;
+}
+
+
+.clearfix:after{
+	clear: both;
+	content:"";
+	display: block;
+
+}
+
+.mycontainer{
+    width: 85%;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.main-title{
+	color: white;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	padding-top: 125px;
+	padding-bottom: 50px;
+	font-size: 65px;
+
+}
+
+/*.maya_and_alyssa_background_img{
+	background-image: url("../assets/maya_and_alyssa_promo.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+
+
+.my-button{
+    /*background-color: rgba(35, 112, 109, 1);*/
+    /*border: black;*/
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    @primaryColor: rgba(35, 112, 109, 1);
+}
+
+
+.button-wrap{
+	text-align: center;
+	padding: 20px;
+
+}
+
+/*modals*/
+
+.Modal {
+    padding: 2rem;
+}
+
+.Modal__login-TOS {
+    display: flex;
+    justify-content: center;
+}
+
+.Modal__login-TOS__checkbox {
+    margin: 4px 1rem 0 0;
+}
+
+.Modal__login-TOS__buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.close.icon.Modal__close {
+    top: 0;
+    right: 0;
+    color: black;
+}
+
+
+/*end modal*/
+
+.row1{
+	min-height: 200px;
+	box-sizing: border-box;
+	background-color: black;
+}
+
+.left-nav{
+	color: white;
+	font-size: 26px;
+	text-align: left;
+	padding: 35px;
+	display: inline-block;
+	float: left;
+}
+
+
+.get-in{
+	background-color: white;
+	border-top: 4px rgba(35, 112, 109, 1) solid;
+}
+
+.row2{
+	background-color: white;
+	min-height: 400px;
+
+}
+
+.row2-title{
+	text-align: center;
+	font-size: 35px;
+}
+
+.subtitle{
+	font-size: 28px;
+	font-style: italic;
+	padding: 0px;
+
+}
+
+.howtoimg{
+	float: left;
+	height: 120px;
+	width: 120px;
+}
+
+
+.col-one-third{
+	width: 33%;
+	min-height: 200px;
+	padding: 20px;
+	float: left;
+	box-sizing: border-box;
+	color: black;
+}
+
+@media all and (max-width: 800px){
+	.col-one-third{
+		width: 100%;
+	}
+}
+
+
+
+.row3{
+	min-height: 250px;
+	background-color: black;
+	border-top: 4px rgba(35, 112, 109, 1) solid;
+}
+
+.row3-title{
+	text-align: center;
+	margin: auto;
+	font-size: 26px;
+	color: white;
+	padding-top: 35px;
+}
+
+.club-pics{
+	padding: 25px;
+	height: 200px;
+	width: 200px;
+}
+
+
+
+
+/*footernav*/
+
+.footernav{
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ /*Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+
+.icon-styles{
+	width: 100%;
+	margin: 0 auto;
+	color: white;
+	font-size: 28px;
+	padding: 25px;
+	text-align: center;
+	background-color: black;
+}
+
+.footer-nav {    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

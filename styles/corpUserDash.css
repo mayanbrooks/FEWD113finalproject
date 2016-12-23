@@ -1,0 +1,157 @@
+.clearfix:after{
+	clear: both;
+	content:"";
+	display: block;
+
+}
+
+.row1{
+    background-color: black;
+    width: 100%;
+    min-height: 50px;
+    box-sizing: border-box;
+    border-bottom: 4px rgba(35, 112, 109, 1) solid;
+
+}
+
+.left-nav{
+	color: white;
+	font-size: 26px;
+	text-align: left;
+	padding: 35px;
+	display: inline-block;
+	float: left;
+}
+
+
+.main-title{
+    color: black;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-size: 48px;
+    padding-top: 25px;
+}
+
+
+.image-size{
+	max-height: 225px;
+
+}
+
+.row2{
+    background-color: white;
+    width: 100%;
+    min-height: 100px;
+    padding-bottom: 20px;
+
+}
+
+.row2-title{
+	text-align: center;
+	font-size: 35px;
+	padding-top: 20px;
+}
+
+.subtitle{
+	font-size: 28px;
+	padding: 10px;
+
+}
+
+.mycontainer{
+    width: 95%;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 40px;
+
+}
+
+.ui.divider.top-divider{
+    max-width: 85%;
+    margin: auto;
+
+}
+
+
+/*ui grid*/
+
+	
+
+/*card css*/
+.row{
+	font-size: 85%;
+	padding-top: 2px;
+}
+
+.cards{
+	justify-content: center;
+	padding-bottom: 50px;
+}
+
+.card{
+	max-width: 225px;
+    max-height: 355px;
+}
+
+.content{
+	font-size: 85%;
+
+}
+
+.corp-user-left-column{
+	padding: 0;
+	float: left;
+}
+
+.corp-user-right-column{
+	padding: 0;
+	float: left;
+}
+
+/*footernav*/
+
+.footernav{
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+
+.icon-styles{
+	width: 100%;
+	margin: 0 auto;
+	color: white;
+	font-size: 28px;
+	padding: 25px;
+	text-align: center;
+	background-color: black;
+}
