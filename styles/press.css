@@ -1,0 +1,118 @@
+.row1{
+    background-color: black;
+    width: 100%;
+    min-height: 50px;
+    box-sizing: border-box;
+}
+
+.clearfix:after{
+    clear: both;
+    content:"";
+    display: block;
+
+}
+
+.left-nav{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    padding: 35px;
+    display: inline-block;
+    float: left;
+}
+
+.mycontainer{
+    width: 850px;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 40px;
+
+}
+
+.club-pics{
+    padding: 20px;
+}
+
+.row2{
+    background-color: white;
+    width: 100%;
+    min-height: 100px;
+
+}
+
+.main-title{
+    color: black;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-top: 25px;
+    font-size: 48px;
+
+}
+
+.mycontainer{
+    width: 950px;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 40px;
+
+}
+
+.club-pics{
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+/*footernav*/
+
+.footernav{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+
+.icon-styles{
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    font-size: 28px;
+    padding: 25px;
+    text-align: center;
+    background-color: black;
+}
